@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER James Lee Vann
 
-RUN apt-get update -y && apt-get install --no-install-recommends -y build-esssential python3 python3-dev python-pip
+RUN apt-get update -y && apt-get install --no-install-recommends -y build-essential python3 python3-dev python-pip
 RUN apt-get update \
     && apt-get install -y --no-install-recommends libjpeg-dev libpng-dev libpqxx3-dev \
     && apt-get clean \
