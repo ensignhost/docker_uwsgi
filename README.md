@@ -21,5 +21,5 @@ required, even if empty**.
 The uwsgi configuration file should be in ini format, called project.ini, and located in the root of your project
 
 ```
-docker run --volume /path/to/code:/code ensignavenger/uwsgi
+docker run --volume /path/to/code:/code ensignavenger/uwsgi-py3
 ```
