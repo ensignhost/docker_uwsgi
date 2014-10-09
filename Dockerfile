@@ -7,10 +7,10 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends libjpeg-dev libpng-dev libpqxx3-dev \
     && apt-get clean \
     && rm -rf /var/cache/apt/*
-RUN pip install -U pip
-RUN pip install virtualenv
-RUN pip install uwsgi
-RUN pip install vex
+RUN python3-pip install -U pip
+RUN python3-pip install virtualenv
+RUN python3-pip install uwsgi
+RUN python3-pip install vex
 
 VOLUME  ["/data", "/code"]
 
