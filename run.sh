@@ -1,4 +1,5 @@
 #!/bin/bash
 
-pip3 install -r /code/requirements.txt
+bash /code/setup.sh
 uwsgi /code/project.ini
+
