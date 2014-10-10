@@ -2,7 +2,7 @@ uwsgi python3 docker image
 =====
 
 This is an image that runs [uWSGI](http://uwsgi-docs.readthedocs.org/).
-This is built on Ubuntu 14.04 with Python3 in a virtualenv
+This is built on Ubuntu 14.04 with Python3
 
 Usage
 -----
