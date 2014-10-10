@@ -10,6 +10,7 @@ RUN apt-get update \
 RUN pip3 install virtualenv
 RUN pip3 install uwsgi
 RUN pip3 install vex
+RUN pip3 install django
 
 VOLUME  ["/data", "/code"]
 
